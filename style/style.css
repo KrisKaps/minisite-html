@@ -135,6 +135,10 @@ body main article article p strong {
     margin: 90px 10% 90px 10%;
 }
 
+#merk-galery {
+    float: right;
+}
+
 .merk-textbox {
     width: 45%;
     margin-right: 5%;
