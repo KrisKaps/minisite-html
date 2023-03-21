@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#slider {
+    overflow: hidden;
+    aspect-ratio: 3/2;
+    max-height: 90vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+#slider figure {
+    position: relative;
+    width: 700%;
+    margin: 0px;
+    left: 0px;
+    animation: 20s slider infinite;
+}
+
+#slider figure img {
+    position: relative;
+    float: left;
+    width: calc(100%/7);
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    11.6% {
+        left: 0;
+    }
+    16.6% {
+        left: -100%;
+    }
+    28.2% {
+        left: -100%;
+    }
+    33.2% {
+        left: -200%;
+    }
+    44.8% {
+        left: -200%;
+    }
+    49.8% {
+        left: -300%;
+    }
+    61.4% {
+        left: -300%;
+    }
+    66.4% {
+        left: -400%;
+    }
+    78.0% {
+        left: -400%;
+    }
+    83.0% {
+        left: -500%;
+    }
+    94.6% {
+        left: -500%;
+    }
+    100% {
+        left: -600%;
+    }
+}
