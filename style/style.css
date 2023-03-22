@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-image: url(imgs/Banner\ A7RV-clean.png);
+    background-image: url("../imgs/Banner\ A7RV-clean.png");
     background-color: black;
     background-position: center;
     background-size: contain;
@@ -37,20 +37,25 @@ header {
 }
 
 #logo {
-    width: 30%;
-    margin-right: 70%;
+    width: 21%;
+    margin-right: 50%;
     margin-bottom: 35px;
 }
 
 #title {
     width: 100%;
-    margin-top: 35px;
-    margin-bottom: 15px;
+    margin-top: 24px;
+
+    font-weight: bold;
+    font-size: 2.3em;
+    color: #ff6600;
 }
 
 #subtitle {
     width: 100%;
-    margin-top: 15px;
+    margin-top: px;
+
+    font-size: 1.5em;
 }
 
 .information {
