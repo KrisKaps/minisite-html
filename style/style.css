@@ -24,7 +24,6 @@ header {
     background-repeat: no-repeat;
 
     aspect-ratio: 2.5;
-    width: 100%;
 }
 
 .banner-text {
@@ -41,7 +40,6 @@ header {
 }
 
 #title {
-    width: 100%;
     margin-top: 24px;
 
     font-weight: bold;
@@ -50,8 +48,7 @@ header {
 }
 
 #subtitle {
-    width: 100%;
-    margin-top: px;
+    margin-top: 5px;
 
     font-size: 1.5em;
 }
@@ -108,12 +105,9 @@ body main article article p strong {
     margin: 30px 0 20px 0;
 }
 
-.info-slider-mitte {
-    width: 100%;
-}
-
 .tab {
     margin-left: 20px;
+    width: 95%
 }
 
 /* galery oben */
